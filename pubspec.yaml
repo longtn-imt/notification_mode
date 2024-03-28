@@ -1,7 +1,7 @@
 name: notification_mode
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/longtn-imt/notification_mode
 
 environment:
   sdk: ">=3.3.2 <4.0.0"

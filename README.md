@@ -1,15 +1,23 @@
-# notification_mode
+## DESCRIPTION
 
-A new Flutter plugin project.
+Plugin used to obtain the status of an incoming notification in Android and iOS
 
-## Getting Started
+## HOW TO USE
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+- Use stream value
+    ```dart
+    StreamBuilder(
+        stream: NotificationMode().stream,
+        ...
+    )
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+- Use Future function
+    ```dart
+    try {
+        final bool? notificationModel = await NotificationMode().isDeviceMuted();
+        ...
+    } on PlatformException catch (error) {
+        debugPrint(error.toString());
+    }
+    ```
