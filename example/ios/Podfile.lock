@@ -2,13 +2,19 @@ PODS:
   - Flutter (1.0.0)
   - integration_test (0.0.1):
     - Flutter
+  - Mute (0.6.1)
   - notification_mode (0.0.1):
     - Flutter
+    - Mute
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - integration_test (from `.symlinks/plugins/integration_test/ios`)
   - notification_mode (from `.symlinks/plugins/notification_mode/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Mute
 
 EXTERNAL SOURCES:
   Flutter:
@@ -21,7 +27,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   integration_test: 13825b8a9334a850581300559b8839134b124670
-  notification_mode: 1b8eac6deb1db8731613c7b07cda4372959cd4de
+  Mute: 20135a96076f140cc82bfc8b810e2d6150d8ec7e
+  notification_mode: 9b4f8c25fee9bd883a1bda1cf25634e3367113a3
 
 PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
 

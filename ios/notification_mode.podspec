@@ -15,6 +15,7 @@ Plugin used to obtain the status of an incoming notification in Android and iOS
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
+  s.dependency 'Mute'
   s.platform = :ios, '11.0'
 
   # Flutter.framework does not contain a i386 slice.
